@@ -1,0 +1,2 @@
+DROP DATABASE fiverr;
+CREATE DATABASE fiverr;
