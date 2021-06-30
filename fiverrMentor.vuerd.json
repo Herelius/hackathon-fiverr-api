@@ -3,8 +3,8 @@
     "version": "2.1.0",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -192.33332412772768,
-    "scrollLeft": -220.94443913521613,
+    "scrollTop": -194.78162041645967,
+    "scrollLeft": -116.484375,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -23,8 +23,8 @@
     "language": "GraphQL",
     "tableCase": "pascalCase",
     "columnCase": "camelCase",
-    "highlightTheme": "VS2015",
-    "bracketType": "none",
+    "highlightTheme": "MonokaiSublime",
+    "bracketType": "backtick",
     "setting": {
       "relationshipDataTypeSync": true,
       "columnOrder": [
@@ -129,7 +129,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 65,
+              "widthName": 66,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -198,7 +198,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 109,
+              "widthName": 110,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -233,7 +233,7 @@
           "active": false,
           "left": 15.166674051019651,
           "top": 388.6666568650147,
-          "zIndex": 6,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -270,7 +270,7 @@
             "name": "skillsSetMainToolLevel",
             "comment": "",
             "dataType": "VARCHAR",
-            "default": "BEGINNER",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -282,10 +282,10 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 138,
+              "widthName": 137,
               "widthComment": 60,
               "widthDataType": 60,
-              "widthDefault": 67
+              "widthDefault": 60
             },
             "id": "1244d4f6-b688-4e0c-9f4b-ff1fed1f3b71"
           },
@@ -293,7 +293,7 @@
             "name": "skillsSetSecondToolLevel",
             "comment": "",
             "dataType": "VARCHAR",
-            "default": "BEGINNER",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -308,7 +308,7 @@
               "widthName": 152,
               "widthComment": 60,
               "widthDataType": 60,
-              "widthDefault": 67
+              "widthDefault": 60
             },
             "id": "eb465a6e-034f-4037-aeae-0859d1c487db"
           },
@@ -316,7 +316,7 @@
             "name": "skillsSetThirdToolLevel",
             "comment": "",
             "dataType": "VARCHAR",
-            "default": "BEGINNER",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -331,7 +331,7 @@
               "widthName": 139,
               "widthComment": 60,
               "widthDataType": 60,
-              "widthDefault": 67
+              "widthDefault": 60
             },
             "id": "eb26d8f4-657e-45e5-83f7-430e5bed8791"
           },
@@ -351,7 +351,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 124,
+              "widthName": 125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -478,7 +478,7 @@
           "active": false,
           "left": 702.8749838322395,
           "top": 172.12499113380932,
-          "zIndex": 1,
+          "zIndex": 5,
           "widthName": 70,
           "widthComment": 60
         },
@@ -527,7 +527,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 85,
+              "widthName": 84,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -746,8 +746,8 @@
           "active": false,
           "left": 18.38888892200259,
           "top": 20.66666666666667,
-          "zIndex": 5,
-          "widthName": 64,
+          "zIndex": 6,
+          "widthName": 63,
           "widthComment": 60
         },
         "id": "7b9cfadf-cc35-4c78-ae3c-560bf393744f"
@@ -795,7 +795,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 63,
+              "widthName": 62,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -830,7 +830,7 @@
           "active": false,
           "left": 1439.2916355811892,
           "top": 236.54167963895446,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -891,7 +891,7 @@
           "active": false,
           "left": 1446.2381013877816,
           "top": 630.3174396419018,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 79,
           "widthComment": 60
         },
@@ -940,7 +940,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 70,
+              "widthName": 71,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1009,7 +1009,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 97,
+              "widthName": 96,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1067,14 +1067,22 @@
           "active": false,
           "left": 667.291668363742,
           "top": 685.4166438016605,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 61,
           "widthComment": 60
         },
         "id": "d99eeb64-8aec-41f4-81f5-8c9b7acdb105"
       }
     ],
-    "indexes": []
+    "indexes": [
+      {
+        "name": "",
+        "columns": [],
+        "unique": false,
+        "id": "3c4f6880-5973-494c-894c-4b324395b816",
+        "tableId": "7b9cfadf-cc35-4c78-ae3c-560bf393744f"
+      }
+    ]
   },
   "memo": {
     "memos": []
@@ -1124,7 +1132,7 @@
           "columnIds": [
             "3a76b997-a086-4212-8c5a-6001e8abc861"
           ],
-          "x": 1195.8749838322396,
+          "x": 1188.8749838322396,
           "y": 309.1249911338093,
           "direction": "right"
         },
@@ -1149,7 +1157,7 @@
           "columnIds": [
             "9257c28c-72f5-4648-b696-1ac02f2c1e54"
           ],
-          "x": 1195.8749838322396,
+          "x": 1188.8749838322396,
           "y": 217.791657800476,
           "direction": "right"
         },
@@ -1174,7 +1182,7 @@
           "columnIds": [
             "cb257a45-81cc-4def-83c1-37fca9026b82"
           ],
-          "x": 1195.8749838322396,
+          "x": 1188.8749838322396,
           "y": 400.45832446714263,
           "direction": "right"
         },
@@ -1249,7 +1257,7 @@
           "columnIds": [
             "17bd41be-f809-4816-8240-8236a35ebf5f"
           ],
-          "x": 949.3749838322395,
+          "x": 945.8749838322395,
           "y": 446.1249911338093,
           "direction": "bottom"
         },
